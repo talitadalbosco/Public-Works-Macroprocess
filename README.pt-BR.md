@@ -23,7 +23,7 @@ Os diagramas simplificados publicados no artigo omitem subatividades, gateways e
 
 ## Conteúdo
 
-Os modelos estão disponíveis em **dois idiomas**. As versões em inglês correspondem às descritas no artigo. As versões em português são os modelos originais de trabalho, mantidos porque os usuários a que este framework se destina — servidores do FNDE e equipes técnicas municipais — trabalham em português.
+Os modelos estão disponíveis em **dois idiomas**. As versões em inglês correspondem às descritas no artigo. As versões em português são os modelos originais de trabalho, mantidos porque os usuários a que este framework se destina — servidores e equipes técnicas municipais — trabalham em português.
 
 | Caminho | Descrição |
 |---|---|
@@ -62,15 +62,15 @@ O macroprocesso está organizado em seis etapas, vinte e seis processos e oito s
 | Código | Etapa |
 |---|---|
 | S1 | Concepção e planejamento |
-| S2 | Contratação dos serviços de projeto |
-| S3 | Desenvolvimento do projeto |
-| S4 | Licitação da execução da obra |
+| S2 | Contratação publica de projeto |
+| S3 | Desenvolvimento dos projetos |
+| S4 | Contratação publica de execução de obra |
 | S5 | Execução e monitoramento da obra |
 | S6 | Encerramento |
 
 ### Processos
 
-`P01`–`P26`, distribuídos pelas seis etapas. As responsabilidades são atribuídas a quatro categorias de agentes: FNDE, municípios, empresas proponentes e empresas contratadas.
+`P01`–`P26`, distribuídos pelas seis etapas. As responsabilidades são atribuídas a quatro categorias de agentes: FNDE, municípios, licitantes e empresas contratadas.
 
 ### Subprocessos legais
 
@@ -108,7 +108,7 @@ This work is financed by national funds through FCT - Foundation for Science and
 
 **Talita Dal'Bosco Re** (autora correspondente)
 University of Minho, ISISE, ARISE, Department of Civil Engineering, Guimarães, Portugal
-ORCID: [0000-0001-8684-7904](https://orcid.org/0000-0001-8684-7904) · id9834@uminho.pt
+ORCID: [0000-0001-8684-7904](https://orcid.org/0000-0001-8684-7904) · talitadalbosco@gmail.com
 
 **Rui M. Lima**
 University of Minho, ALGORITMI Research Centre/LASI, Department of Production and Systems, School of Engineering, Guimarães, Portugal

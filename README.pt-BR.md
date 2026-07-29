@@ -36,7 +36,14 @@ Os modelos estão disponíveis em **dois idiomas**. As versões em inglês corre
 | `viewer/TO-BE_EN/` · `viewer/TO-BE_PT/` | Visualizador interativo em HTML, TO-BE |
 | `templates/` | Documentos de referência de requisitos de informação (F_EIR, exemplos de EIR e BEP) |
 
-Visualizadores interativos disponíveis em `https://talitadalbosco.github.io/Public-Works-Macroprocess/viewer/<MODELO>_<IDIOMA>/`
+### Visualizadores interativos
+
+Abrem diretamente no navegador, sem instalar nada:
+
+- [**AS-IS — português**](https://talitadalbosco.github.io/Public-Works-Macroprocess/viewer/AS-IS_PT/)
+- [**TO-BE — português**](https://talitadalbosco.github.io/Public-Works-Macroprocess/viewer/TO-BE_PT/)
+- [AS-IS — inglês](https://talitadalbosco.github.io/Public-Works-Macroprocess/viewer/AS-IS_EN/)
+- [TO-BE — inglês](https://talitadalbosco.github.io/Public-Works-Macroprocess/viewer/TO-BE_EN/)
 
 Os códigos de etapa, processo e subprocesso (`S1`–`S6`, `P01`–`P26`, `SP1`–`SP8`) são idênticos nas duas versões linguísticas, o que permite a leitura em paralelo.
 

@@ -36,7 +36,14 @@ Models are provided in **two languages**. The English models correspond to the v
 | `viewer/TO-BE_EN/` · `viewer/TO-BE_PT/` | Interactive HTML viewer, TO-BE |
 | `templates/` | Reference information requirement documents (F_EIR, example EIR and BEP) |
 
-Interactive viewers are served at `https://talitadalbosco.github.io/Public-Works-Macroprocess/viewer/<MODEL>_<LANG>/`
+### Interactive viewers
+
+Open directly in the browser, no installation required:
+
+- [**AS-IS — English**](https://talitadalbosco.github.io/Public-Works-Macroprocess/viewer/AS-IS_EN/)
+- [**TO-BE — English**](https://talitadalbosco.github.io/Public-Works-Macroprocess/viewer/TO-BE_EN/)
+- [AS-IS — Portuguese](https://talitadalbosco.github.io/Public-Works-Macroprocess/viewer/AS-IS_PT/)
+- [TO-BE — Portuguese](https://talitadalbosco.github.io/Public-Works-Macroprocess/viewer/TO-BE_PT/)
 
 Stage, process and subprocess codes (`S1`–`S6`, `P01`–`P26`, `SP1`–`SP8`) are identical across both language versions, so the models can be read in parallel.
 

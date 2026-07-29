@@ -1,10 +1,14 @@
-[English](README.md) · **Português**
+[English](https://github.com/talitadalbosco/Public-Works-Macroprocess/blob/main/README.md) · **Português**
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21673019.svg)](https://doi.org/10.5281/zenodo.21673019)
+[![Licença: CC BY 4.0](https://img.shields.io/badge/Licen%C3%A7a-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/deed.pt-br)
 
 # Macroprocesso de Obras Públicas — modelos BPMN (AS-IS e TO-BE)
 
 Modelos de processo em BPMN 2.0 que acompanham o artigo *"A Framework for Integrating BIM and ISO 19650 into the Process Management of Public Constructions"*, publicado em **Smart and Sustainable Built Environment** (Emerald Publishing).
 
 DOI do artigo: [10.1108/SASBE-03-2026-0230](https://doi.org/10.1108/SASBE-03-2026-0230)
+DOI deste conjunto: [10.5281/zenodo.21673019](https://doi.org/10.5281/zenodo.21673019)
 
 ---
 
@@ -21,9 +25,20 @@ Os diagramas simplificados publicados no artigo omitem subatividades, gateways e
 
 ---
 
+## Visualizadores interativos
+
+Abrem diretamente no navegador, sem instalar nada:
+
+- [**AS-IS — português**](https://talitadalbosco.github.io/Public-Works-Macroprocess/viewer/AS-IS_PT/)
+- [**TO-BE — português**](https://talitadalbosco.github.io/Public-Works-Macroprocess/viewer/TO-BE_PT/)
+- [AS-IS — inglês](https://talitadalbosco.github.io/Public-Works-Macroprocess/viewer/AS-IS_EN/)
+- [TO-BE — inglês](https://talitadalbosco.github.io/Public-Works-Macroprocess/viewer/TO-BE_EN/)
+
+---
+
 ## Conteúdo
 
-Os modelos estão disponíveis em **dois idiomas**. As versões em inglês correspondem às descritas no artigo. As versões em português são os modelos originais de trabalho, mantidos porque os usuários a que este framework se destina — servidores e equipes técnicas municipais — trabalham em português.
+Os modelos estão disponíveis em **dois idiomas**. As versões em inglês correspondem às descritas no artigo. As versões em português são os modelos originais de trabalho, mantidos porque os usuários a que este framework se destina — servidores do FNDE e equipes técnicas municipais — trabalham em português.
 
 | Caminho | Descrição |
 |---|---|
@@ -32,18 +47,8 @@ Os modelos estão disponíveis em **dois idiomas**. As versões em inglês corre
 | `bpmn/TO-BE_EN.bpmn` | Macroprocesso proposto, BPMN 2.0 XML (ISO 19510), inglês |
 | `bpmn/TO-BE_PT.bpmn` | Macroprocesso proposto, BPMN 2.0 XML (ISO 19510), português |
 | `source/*.bpm` | Arquivos nativos do Bizagi Modeler (formato proprietário), cópias de arquivamento |
-| `viewer/AS-IS_EN/` · `viewer/AS-IS_PT/` | Visualizador interativo em HTML, AS-IS |
-| `viewer/TO-BE_EN/` · `viewer/TO-BE_PT/` | Visualizador interativo em HTML, TO-BE |
+| `viewer/` | Visualizadores interativos em HTML, quatro combinações de modelo e idioma |
 | `templates/` | Documentos de referência de requisitos de informação (F_EIR, exemplos de EIR e BEP) |
-
-### Visualizadores interativos
-
-Abrem diretamente no navegador, sem instalar nada:
-
-- [**AS-IS — português**](https://talitadalbosco.github.io/Public-Works-Macroprocess/viewer/AS-IS_PT/)
-- [**TO-BE — português**](https://talitadalbosco.github.io/Public-Works-Macroprocess/viewer/TO-BE_PT/)
-- [AS-IS — inglês](https://talitadalbosco.github.io/Public-Works-Macroprocess/viewer/AS-IS_EN/)
-- [TO-BE — inglês](https://talitadalbosco.github.io/Public-Works-Macroprocess/viewer/TO-BE_EN/)
 
 Os códigos de etapa, processo e subprocesso (`S1`–`S6`, `P01`–`P26`, `SP1`–`SP8`) são idênticos nas duas versões linguísticas, o que permite a leitura em paralelo.
 
@@ -64,13 +69,13 @@ O macroprocesso está organizado em seis etapas, vinte e seis processos e oito s
 | S1 | Concepção e planejamento |
 | S2 | Contratação publica de projeto |
 | S3 | Desenvolvimento dos projetos |
-| S4 | Contratação publica de execução de obra |
+| S4 | Contrataçõ publica da execução da obra |
 | S5 | Execução e monitoramento da obra |
 | S6 | Encerramento |
 
 ### Processos
 
-`P01`–`P26`, distribuídos pelas seis etapas. As responsabilidades são atribuídas a quatro categorias de agentes: FNDE, municípios, licitantes e empresas contratadas.
+`P01`–`P26`, distribuídos pelas seis etapas. As responsabilidades são atribuídas a quatro categorias de agentes: FNDE, municípios, empresas proponentes e empresas contratadas.
 
 ### Subprocessos legais
 
@@ -88,7 +93,7 @@ Os modelos foram desenvolvidos para o contexto do FNDE, mas foram concebidos par
 
 ## Como citar
 
-> Dal'Bosco Re, T., Lima, R.M. e Azenha, M. (2026), *Public Works Macroprocess — BPMN models (AS-IS and TO-BE)* [Conjunto de dados], Zenodo, doi: 10.5281/zenodo.21673019
+> Dal'Bosco Re, T., Lima, R.M. e Azenha, M. (2026), *Public works macroprocess – BPMN models (AS-IS and TO-BE)*, Zenodo, disponível em: https://doi.org/10.5281/zenodo.21673019
 
 Cite também o artigo:
 
@@ -108,7 +113,7 @@ This work is financed by national funds through FCT - Foundation for Science and
 
 **Talita Dal'Bosco Re** (autora correspondente)
 University of Minho, ISISE, ARISE, Department of Civil Engineering, Guimarães, Portugal
-ORCID: [0000-0001-8684-7904](https://orcid.org/0000-0001-8684-7904) · talitadalbosco@gmail.com
+ORCID: [0000-0001-8684-7904](https://orcid.org/0000-0001-8684-7904) · id9834@uminho.pt
 
 **Rui M. Lima**
 University of Minho, ALGORITMI Research Centre/LASI, Department of Production and Systems, School of Engineering, Guimarães, Portugal

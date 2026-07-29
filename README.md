@@ -1,10 +1,14 @@
-**English** · [Português](README.pt-BR.md)
+**English** · [Português](https://github.com/talitadalbosco/Public-Works-Macroprocess/blob/main/README.pt-BR.md)
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21673019.svg)](https://doi.org/10.5281/zenodo.21673019)
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 # Public Works Macroprocess — BPMN models (AS-IS and TO-BE)
 
 BPMN 2.0 process models supporting the article *"A Framework for Integrating BIM and ISO 19650 into the Process Management of Public Constructions"*, published in **Smart and Sustainable Built Environment** (Emerald Publishing).
 
 Article DOI: [10.1108/SASBE-03-2026-0230](https://doi.org/10.1108/SASBE-03-2026-0230)
+Dataset DOI: [10.5281/zenodo.21673019](https://doi.org/10.5281/zenodo.21673019)
 
 ---
 
@@ -21,6 +25,17 @@ The simplified diagrams published in the article omit sub-activities, gateways a
 
 ---
 
+## Interactive viewers
+
+Open directly in the browser, no installation required:
+
+- [**AS-IS — English**](https://talitadalbosco.github.io/Public-Works-Macroprocess/viewer/AS-IS_EN/)
+- [**TO-BE — English**](https://talitadalbosco.github.io/Public-Works-Macroprocess/viewer/TO-BE_EN/)
+- [AS-IS — Portuguese](https://talitadalbosco.github.io/Public-Works-Macroprocess/viewer/AS-IS_PT/)
+- [TO-BE — Portuguese](https://talitadalbosco.github.io/Public-Works-Macroprocess/viewer/TO-BE_PT/)
+
+---
+
 ## Contents
 
 Models are provided in **two languages**. The English models correspond to the version described in the article. The Portuguese models are the original working versions, retained because the intended users of this framework — FNDE staff and Brazilian municipal technical teams — work in Portuguese.
@@ -32,18 +47,8 @@ Models are provided in **two languages**. The English models correspond to the v
 | `bpmn/TO-BE_EN.bpmn` | Proposed macroprocess, BPMN 2.0 XML (ISO 19510), English |
 | `bpmn/TO-BE_PT.bpmn` | Proposed macroprocess, BPMN 2.0 XML (ISO 19510), Portuguese |
 | `source/*.bpm` | Native Bizagi Modeler files (proprietary), archival copies |
-| `viewer/AS-IS_EN/` · `viewer/AS-IS_PT/` | Interactive HTML viewer, AS-IS |
-| `viewer/TO-BE_EN/` · `viewer/TO-BE_PT/` | Interactive HTML viewer, TO-BE |
+| `viewer/` | Interactive HTML viewers, four language/model combinations |
 | `templates/` | Reference information requirement documents (F_EIR, example EIR and BEP) |
-
-### Interactive viewers
-
-Open directly in the browser, no installation required:
-
-- [**AS-IS — English**](https://talitadalbosco.github.io/Public-Works-Macroprocess/viewer/AS-IS_EN/)
-- [**TO-BE — English**](https://talitadalbosco.github.io/Public-Works-Macroprocess/viewer/TO-BE_EN/)
-- [AS-IS — Portuguese](https://talitadalbosco.github.io/Public-Works-Macroprocess/viewer/AS-IS_PT/)
-- [TO-BE — Portuguese](https://talitadalbosco.github.io/Public-Works-Macroprocess/viewer/TO-BE_PT/)
 
 Stage, process and subprocess codes (`S1`–`S6`, `P01`–`P26`, `SP1`–`SP8`) are identical across both language versions, so the models can be read in parallel.
 
@@ -88,7 +93,7 @@ The models were developed for the FNDE context but are intended to be adaptable 
 
 ## How to cite
 
-> Dal'Bosco Re, T., Lima, R.M. and Azenha, M. (2026), *Public Works Macroprocess — BPMN models (AS-IS and TO-BE)* [Data set], Zenodo, doi: 10.5281/zenodo.21673019
+> Dal'Bosco Re, T., Lima, R.M. and Azenha, M. (2026), *Public works macroprocess – BPMN models (AS-IS and TO-BE)*, Zenodo, available at: https://doi.org/10.5281/zenodo.21673019
 
 Please cite the article as well:
 

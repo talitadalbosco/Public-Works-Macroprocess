@@ -88,7 +88,7 @@ Os modelos foram desenvolvidos para o contexto do FNDE, mas foram concebidos par
 
 ## Como citar
 
-> Dal'Bosco Re, T., Lima, R.M. e Azenha, M. (2026), *Public Works Macroprocess — BPMN models (AS-IS and TO-BE)* [Conjunto de dados], Zenodo, doi: 10.5281/zenodo.XXXXXXX
+> Dal'Bosco Re, T., Lima, R.M. e Azenha, M. (2026), *Public Works Macroprocess — BPMN models (AS-IS and TO-BE)* [Conjunto de dados], Zenodo, doi: 10.5281/zenodo.21673019
 
 Cite também o artigo:
 

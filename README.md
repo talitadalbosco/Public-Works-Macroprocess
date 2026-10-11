@@ -8,7 +8,8 @@
 BPMN 2.0 process models supporting the article *"A Framework for Integrating BIM and ISO 19650 into the Process Management of Public Constructions"*, published in **Smart and Sustainable Built Environment** (Emerald Publishing).
 
 Article DOI: [10.1108/SASBE-03-2026-0230](https://doi.org/10.1108/SASBE-03-2026-0230)
-Dataset DOI: [10.5281/zenodo.21673019](https://doi.org/10.5281/zenodo.21673019)
+Dataset DOI: [10.5281/zenodo.21673019](https://doi.org/10.5281/zenodo.21673019) (concept DOI; it always resolves to the latest version)
+Current version: 1.1.0 — see [CHANGELOG.md](CHANGELOG.md)
 
 ---
 
@@ -42,19 +43,18 @@ Models are provided in **two languages**. The English models correspond to the v
 
 | Path | Description |
 |---|---|
-| `bpmn/AS-IS_EN.bpmn` | Current-state macroprocess, BPMN 2.0 XML (ISO 19510), English |
-| `bpmn/AS-IS_PT.bpmn` | Current-state macroprocess, BPMN 2.0 XML (ISO 19510), Portuguese |
-| `bpmn/TO-BE_EN.bpmn` | Proposed macroprocess, BPMN 2.0 XML (ISO 19510), English |
-| `bpmn/TO-BE_PT.bpmn` | Proposed macroprocess, BPMN 2.0 XML (ISO 19510), Portuguese |
-| `source/*.bpm` | Native Bizagi Modeler files (proprietary), archival copies |
+| `bpmn/AS-IS_EN/` | Current-state macroprocess, BPMN 2.0 XML (ISO 19510), English — one file per process (P00–P26) and subprocess (SP1, SP3, SP4, SP5) |
+| `bpmn/AS-IS_PT/` | Current-state macroprocess, BPMN 2.0 XML (ISO 19510), Portuguese — same structure |
+| `bpmn/TO-BE_EN/` | Proposed macroprocess, BPMN 2.0 XML (ISO 19510), English — same structure |
+| `bpmn/TO-BE_PT/` | Proposed macroprocess, BPMN 2.0 XML (ISO 19510), Portuguese — same structure |
+| `source_Nativo Bizagi/` | Native Bizagi Modeler files (`.bpm`, proprietary), archival copies |
 | `viewer/` | Interactive HTML viewers, four language/model combinations |
-| `templates/` | Reference information requirement documents (F_EIR, example EIR and BEP) |
 
 Stage, process and subprocess codes (`S1`–`S6`, `P01`–`P26`, `SP1`–`SP8`) are identical across both language versions, so the models can be read in parallel.
 
 **Formats.** The `.bpmn` files in `bpmn/` are the primary artefact: plain XML conforming to BPMN 2.0 (ISO 19510), openable in any compliant modelling tool — Bizagi Modeler, Camunda Modeler, bpmn.io, Signavio, among others. They are provided in an open format deliberately: the models are intended to be inspected, adapted and extended, not only viewed.
 
-The `.bpm` files in `source/` are the native Bizagi Modeler originals. They require proprietary software and are included only as archival copies, preserving any tool-specific documentation or formatting that may not survive export to BPMN 2.0 XML. Reuse should start from `bpmn/`.
+The `.bpm` files in `source_Nativo Bizagi/` are the native Bizagi Modeler originals. They require proprietary software and are included only as archival copies, preserving any tool-specific documentation or formatting that may not survive export to BPMN 2.0 XML. Reuse should start from `bpmn/`.
 
 ---
 
@@ -69,17 +69,17 @@ The macroprocess is organised into six stages, twenty-six processes and eight le
 | S1 | Conception and planning |
 | S2 | Public procurement of design services |
 | S3 | Design development |
-| S4 | Public tender of works execution |
+| S4 | Public procurement of works execution |
 | S5 | Execution and monitoring of the work |
 | S6 | Closing |
 
 ### Processes
 
-`P01`–`P26`, distributed across the six stages. Responsibility is allocated to four actor categories: FNDE, municipalities, prospective enterprises and enterprises.
+`P01`–`P26`, distributed across the six stages. Responsibility is allocated to five actor categories: FNDE, municipalities, bidders, contracted enterprises and the inspection enterprise engaged by FNDE.
 
 ### Legal subprocesses
 
-`SP1`–`SP8` group the procedures required by Law No. 14,133/2021, modelled as collapsed subprocesses embedded in the macroprocess.
+`SP1`–`SP8` group the procedures required by Law No. 14,133/2021. Only those with an internal flow of their own are modelled as collapsed subprocesses: SP1 (DFD), SP3 (ETP), SP4 (risk analysis) and SP5 (terms of reference). SP2 (appointment of the planning team) is a task in P04, and SP6 to SP8 appear as numbered activities (6.x, 7.x and 8.x) in the selection, contracting, supervision and closing processes.
 
 ---
 

@@ -8,7 +8,8 @@
 Modelos de processo em BPMN 2.0 que acompanham o artigo *"A Framework for Integrating BIM and ISO 19650 into the Process Management of Public Constructions"*, publicado em **Smart and Sustainable Built Environment** (Emerald Publishing).
 
 DOI do artigo: [10.1108/SASBE-03-2026-0230](https://doi.org/10.1108/SASBE-03-2026-0230)
-DOI deste conjunto: [10.5281/zenodo.21673019](https://doi.org/10.5281/zenodo.21673019)
+DOI deste conjunto: [10.5281/zenodo.21673019](https://doi.org/10.5281/zenodo.21673019) (DOI conceito; aponta sempre para a versão mais recente)
+Versão atual: 1.1.0 — ver [CHANGELOG.md](CHANGELOG.md)
 
 ---
 
@@ -42,19 +43,18 @@ Os modelos estão disponíveis em **dois idiomas**. As versões em inglês corre
 
 | Caminho | Descrição |
 |---|---|
-| `bpmn/AS-IS_EN.bpmn` | Macroprocesso atual, BPMN 2.0 XML (ISO 19510), inglês |
-| `bpmn/AS-IS_PT.bpmn` | Macroprocesso atual, BPMN 2.0 XML (ISO 19510), português |
-| `bpmn/TO-BE_EN.bpmn` | Macroprocesso proposto, BPMN 2.0 XML (ISO 19510), inglês |
-| `bpmn/TO-BE_PT.bpmn` | Macroprocesso proposto, BPMN 2.0 XML (ISO 19510), português |
-| `source/*.bpm` | Arquivos nativos do Bizagi Modeler (formato proprietário), cópias de arquivamento |
+| `bpmn/AS-IS_EN/` | Macroprocesso atual, BPMN 2.0 XML (ISO 19510), inglês — um arquivo por processo (P00–P26) e por subprocesso (SP1, SP3, SP4, SP5) |
+| `bpmn/AS-IS_PT/` | Macroprocesso atual, BPMN 2.0 XML (ISO 19510), português — mesma estrutura |
+| `bpmn/TO-BE_EN/` | Macroprocesso proposto, BPMN 2.0 XML (ISO 19510), inglês — mesma estrutura |
+| `bpmn/TO-BE_PT/` | Macroprocesso proposto, BPMN 2.0 XML (ISO 19510), português — mesma estrutura |
+| `source_Nativo Bizagi/` | Arquivos nativos do Bizagi Modeler (`.bpm`, formato proprietário), cópias de arquivamento |
 | `viewer/` | Visualizadores interativos em HTML, quatro combinações de modelo e idioma |
-| `templates/` | Documentos de referência de requisitos de informação (F_EIR, exemplos de EIR e BEP) |
 
 Os códigos de etapa, processo e subprocesso (`S1`–`S6`, `P01`–`P26`, `SP1`–`SP8`) são idênticos nas duas versões linguísticas, o que permite a leitura em paralelo.
 
 **Formatos.** Os arquivos `.bpmn` da pasta `bpmn/` são o artefato principal: XML puro em conformidade com a BPMN 2.0 (ISO 19510), que pode ser aberto em qualquer ferramenta de modelagem compatível — Bizagi Modeler, Camunda Modeler, bpmn.io, Signavio, entre outras. A escolha do formato aberto é deliberada: os modelos foram feitos para serem inspecionados, adaptados e estendidos, não apenas visualizados.
 
-Os arquivos `.bpm` da pasta `source/` são os originais nativos do Bizagi Modeler. Exigem software proprietário e são incluídos apenas como cópias de arquivamento, preservando documentação ou formatação específicas da ferramenta que possam não sobreviver à exportação para BPMN 2.0 XML. A reutilização deve partir da pasta `bpmn/`.
+Os arquivos `.bpm` da pasta `source_Nativo Bizagi/` são os originais nativos do Bizagi Modeler. Exigem software proprietário e são incluídos apenas como cópias de arquivamento, preservando documentação ou formatação específicas da ferramenta que possam não sobreviver à exportação para BPMN 2.0 XML. A reutilização deve partir da pasta `bpmn/`.
 
 ---
 
@@ -67,19 +67,19 @@ O macroprocesso está organizado em seis etapas, vinte e seis processos e oito s
 | Código | Etapa |
 |---|---|
 | S1 | Concepção e planejamento |
-| S2 | Contratação publica de projeto |
+| S2 | Contratação pública de projeto |
 | S3 | Desenvolvimento dos projetos |
-| S4 | Contrataçõ publica da execução da obra |
+| S4 | Contratação pública da execução da obra |
 | S5 | Execução e monitoramento da obra |
 | S6 | Encerramento |
 
 ### Processos
 
-`P01`–`P26`, distribuídos pelas seis etapas. As responsabilidades são atribuídas a quatro categorias de agentes: FNDE, municípios, empresas proponentes e empresas contratadas.
+`P01`–`P26`, distribuídos pelas seis etapas. As responsabilidades são atribuídas a cinco categorias de agentes: FNDE, municípios, licitantes, empresas contratadas e a empresa supervisora contratada pelo FNDE.
 
 ### Subprocessos legais
 
-`SP1`–`SP8` agrupam os procedimentos exigidos pela Lei nº 14.133/2021, modelados como subprocessos colapsados embutidos no macroprocesso.
+`SP1`–`SP8` agrupam os procedimentos exigidos pela Lei nº 14.133/2021. Só os que têm fluxo interno próprio foram modelados como subprocessos colapsados: SP1 (DFD), SP3 (ETP), SP4 (análise de riscos) e SP5 (termo de referência). O SP2 (designação da equipe de planejamento) é uma tarefa no P04, e SP6 a SP8 aparecem como atividades numeradas (6.x, 7.x e 8.x) nos processos de seleção, contratação, fiscalização e encerramento.
 
 ---
 

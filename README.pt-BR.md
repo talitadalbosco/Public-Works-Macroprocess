@@ -50,7 +50,7 @@ Os modelos estão disponíveis em **dois idiomas**. As versões em inglês corre
 | `source_Nativo Bizagi/` | Arquivos nativos do Bizagi Modeler (`.bpm`, formato proprietário), cópias de arquivamento |
 | `viewer/` | Visualizadores interativos em HTML, quatro combinações de modelo e idioma |
 
-Os códigos de etapa, processo e subprocesso (`S1`–`S6`, `P01`–`P26`, `SP1`–`SP8`) são idênticos nas duas versões linguísticas, o que permite a leitura em paralelo.
+Os códigos de etapa, processo e subprocesso (`S1`–`S6`, `P01`–`P26`, `SP1`–`SP8`) são idênticos nas duas versões linguísticas, o que permite a leitura em paralelo. A partir da versão 1.1.0, o TO-BE em português traz alguns objetos de informação que não constam da versão em inglês (ver CHANGELOG.md).
 
 **Formatos.** Os arquivos `.bpmn` da pasta `bpmn/` são o artefato principal: XML puro em conformidade com a BPMN 2.0 (ISO 19510), que pode ser aberto em qualquer ferramenta de modelagem compatível — Bizagi Modeler, Camunda Modeler, bpmn.io, Signavio, entre outras. A escolha do formato aberto é deliberada: os modelos foram feitos para serem inspecionados, adaptados e estendidos, não apenas visualizados.
 

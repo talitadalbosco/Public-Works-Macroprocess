@@ -79,8 +79,7 @@ The macroprocess is organised into six stages, twenty-six processes and eight le
 
 ### Legal subprocesses
 
-`SP1`–`SP8` group the procedures required by Law No. 14,133/2021, modelled as collapsed subprocesses embedded in the macroprocess.
-
+`SP1`–`SP8` group the procedures required by Law No. 14,133/2021. Only those with an internal flow of their own are modelled as collapsed subprocesses: SP1 (DFD), SP3 (ETP), SP4 (risk analysis) and SP5 (terms of reference). SP2 (appointment of the planning team) is a task in P04, and SP6 to SP8 appear as numbered activities (6.x, 7.x and 8.x) in the selection, contracting, supervision and closing processes.
 ---
 
 ## Reuse

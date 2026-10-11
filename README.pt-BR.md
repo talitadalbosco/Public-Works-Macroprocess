@@ -93,11 +93,11 @@ Os modelos foram desenvolvidos para o contexto do FNDE, mas foram concebidos par
 
 ## Como citar
 
-> Dal'Bosco Re, T., Lima, R.M. e Azenha, M. (2026), *Public works macroprocess – BPMN models (AS-IS and TO-BE)*, Zenodo, disponível em: https://doi.org/10.5281/zenodo.21673019
+> Dal'Bosco Re, T., Lima, R.M. e Azenha, M. (2026), *Public works macroprocess – BPMN models (AS-IS and TO-BE)*, Zenodo, disponível em: https://doi.org/10.5281/zenodo.21673019.
 
 Cite também o artigo:
 
-> Dal'Bosco Re, T., Lima, R.M. e Azenha, M. (2026), "A framework for integrating BIM and ISO 19650 into the process management of public constructions", *Smart and Sustainable Built Environment*, doi: 10.1108/SASBE-03-2026-0230
+> Dal'Bosco Re, T., Lima, R.M. e Azenha, M. (2026), "A framework for integrating BIM and ISO 19650 into the process management of public constructions", *Smart and Sustainable Built Environment*, doi: 10.1108/SASBE-03-2026-0230.
 
 ---
 
